@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>espanol?</title>
+  </head>
+  <body>
+    <div class="body--container body--color" >
+      <header class="header">
+        <div class="navbar--container">
+          <div class="container">
+            <ul class="navbar-list">
+              <li class="logo"><i class="fab fa-houzz"></i>hurb</li>
+          
+                <li>Destinos</li>
+                <li>Hotéis</li>
+                <li>Pacotes</li>
+                <li>Experiências</li>
+                <li>Ônibus</li>
+                <li>Resorts</li>
+                <li>Disney</li>
+                <li>Promoções</li>
+            
+              <li class="btn">
+                <button class="btn-nav">Fale conosco</button>
+              </li>
+              <li class="user"><i class="far fa-user-circle"></i>Entrar</li>
+            </ul>
+           
+            <div class="links">
+              <div class="navbar-list">
+                <div class="li-link">Hotéis</div>
+                <div class="li-link active-link">Pacotes</div>
+                <div class="li-link">Experiências</div>
+                <div class="li-link">Ônibus</div>
+              </div>
+            </div>
+            <div class="search-box__container">
+              <div class="search">
+                <img src="./images/icons-search.png" alt="" /><input
+                  type="search"
+                  class="search-box"
+                  placeholder="Vai pra onde?"
+                />
+              </div>
+              <button class="btn-search">Pesquisar</button>
+            </div>
+          </div>
+          <div class="alert-green">
+            <p class="alert-p">
+              <i class="fas fa-hand-holding-usd"></i>Novidade! hurb cash, sua
+              viagem pré-paga. <span class="green-text">clique aqui</span> e
+              saiba mais
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Mobile Navbar Hamburger-->
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      
+
+      <!-- //Main -->
+
+      <div class="grid--container">
+      <!-- //flights details -->
+      <div class="picture-slider">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+
+      <img src="./images/clouds.png" class="carousel-img" />
+              
+            </div>
+
+            <div class="mySlides fade">
+            
+              <img src="./images/lake.png" class="carousel-img" />
+             
+            </div>
+
+            <div class="mySlides fade">
+              
+              <img src="./images/woods-and-bridge.png" class="carousel-img" />
+              
+            </div>
+
+      <!-- The small images -->
+      <div class="small-images">
+                <img class="dot" src="./images/clouds.png" width="30px" onclick="currentSlide(1)"></img>
+                <img class="dot" src="./images/lake.png" width="30px" onclick="currentSlide(2)"></img>
+                <img class="dot" src="./images/woods-and-bridge.png" width="30px" onclick="currentSlide(3)"></img>
+                <div class="more dot">95 +</div>
+              </div> 
+
+             <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+             
+          </div>
+        
+
+      
+        
+        </div> 
+
+       
+      
+        <div class="flight-details">
+          <div class="location-title">
+				<p class="location">Orlando, USA</p>
+				<h1 class="flight">Pacote Orlando + Miami - 2020</h1>
+				<p class="classflight">
+				  passagem Aérea + Hospedagem + Alguel de Carro
+				</p>
+			 </div>
+          <div class="p-together">
+            <p class="weather">
+              <img src="./images/sun.png" width="20px" alt="Sun" /> <span class="b">7</span> ou
+              <span class="b">11</span> diáries
+            </p>
+            <p class="customer-line">
+              <i class="fas fa-phone-alt"></i>Reserve on-line ou ligue 4020 7754
+            </p>
+          </div>
+
+          <section class="apart_trans_flight">
+            <div class="border-line"></div>
+            <div class="travel--grid">
+              <div class="transport">
+                <i class="fas fa-building"></i><span class="text-travel">Apartamento</span>
+              </div>
+              <div class="transport">
+                <i class="fas fa-car"></i><span class="text-travel">Alguel de carro</span>
+              </div>
+              <div class="transport">
+                <i class="fas fa-plane-departure"></i><span class="text-travel">Passagem Aérea</span>
+              </div>
+            </div>
+            <div class="border-line"></div>
+          </section>
+          <section class="ticket-and-price">
+				<div class="ticket-and-date">
+					<div class="title">
+						<p class="data">Escolha sua data</p>
+					  <p class="pink">Saiba mais</p>
+
+					  <p class="period">Entre o periodo de:</p>
+					</div>
+
+        
+				<div class="date">
+					<span class="bigger">01</span><div class="month-and-date">Mar 2020</div>
+					<i class="fas fa-long-arrow-alt-right"></i>
+				<span class="bigger">30</span><div class="month-and-date">Nov 2020</div>
+			 </div>
+				</div>
+			 <div class="price">
+				 <button class="discount__percent">-50%</button>
+
+				 <p class="old-price">A partir de <span class="strike-through">R$ 4598</span>
+				 </p>
+				 <div class="new-price">
+					 <div class="new">R$ <span class="bigger-price new">2299</span></div>
+					 <div class="final"><span class="green-text">Preço final!</span>
+					 <p>Em até 12x</p></div>
+				
+			</div>
+			<div class="green-text"><i class="fas fa-check"></i> Cancelamento Grátis</div>
+			</div>
+			<div class="book-now"><button class="btn-book">ESCOLHER OPÇÃO</button></div>
+			 </section>
+
+			
+      </div>
+
+       <div class="header-mobile">
+          <div class="header-mobile-navbar__container">
+            <div class="aside-header__mobile">
+              <ul class="mobile-navbar">
+                <i class="fas fa-arrow-left"></i>
+  
+                <li class="logo-mobile"><i class="fab fa-houzz"></i>hurb</li>
+                <div class="middle"><li class="list">Destinos</li>
+                  <li class="list">Hotéis</li>
+                  <li class="list">Pacotes</li>
+                  <li class="list">Experiências</li>
+                  <li class="list">Ônibus</li>
+                  <li class="list">Resorts</li>
+                  <li class="list">Disney</li>
+                  <li class="list">Promoções</li></div>
+                <li class="btn list">
+                  <button class="btn-nav">Fale conosco</button>
+                </li>
+                <li class="user list">
+                  <i class="far fa-user-circle"></i>Entrar
+                </li>
+              </ul>
+  
+              <div class="border-side-nav"></div>
+  
+              <div class="navbar-list-side">
+                <div class="li-link-side">Hotéis</div>
+                <div class="li-link-side active-link-side">Pacotes</div>
+                <div class="li-link-side">Experiências</div>
+                <div class="li-link-side">Ônibus</div>
+              </div>
+  
+              <div class="search-box__container--side">
+                <div class="search-side">
+                  <img src="./images/icons-search.png" alt="" /><input
+                    type="search"
+                    class="search-box"
+                    placeholder="Vai pra onde?"
+                  />
+                </div>
+                <button class="btn-search-side">Pesquisar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
