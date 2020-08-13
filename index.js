@@ -11,6 +11,7 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
+// Slide show
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -33,9 +34,8 @@ function showSlides(n) {
 
 // Toogle Side Navbar
 const hamburger = document.querySelector(".fa-bars");
-
+const menu = document.querySelector(".header-mobile");
 hamburger.addEventListener("click", () => {
-  const menu = document.querySelector(".header-mobile");
   menu.classList.remove(".hamburger-hidden");
   menu.classList.add(".hamburger-active");
   document.querySelector(".header-mobile").style.left = "0";
